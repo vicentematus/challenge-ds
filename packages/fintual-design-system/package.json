@@ -1,0 +1,24 @@
+{
+  "name": "@fintual/design-system",
+  "version": "0.0.1",
+  "description": "Fintual shared design system components",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "echo 'Setup design system project first'",
+    "build": "echo 'Setup design system project first'",
+    "test": "echo 'No tests configured yet'",
+    "lint": "echo 'No linting configured yet'"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  }
+}

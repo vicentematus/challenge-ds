@@ -1,0 +1,14 @@
+{
+  "name": "@fintual/web",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Fintual React web application",
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'Setup React web project first'",
+    "build": "echo 'Setup React web project first'",
+    "preview": "echo 'Setup React web project first'",
+    "test": "echo 'No tests configured yet'",
+    "lint": "echo 'No linting configured yet'"
+  }
+}

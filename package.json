@@ -1,0 +1,29 @@
+{
+  "name": "fintual-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fintual Design System Monorepo",
+  "scripts": {
+    "dev:web": "pnpm --filter @fintual/web dev",
+    "dev:mobile": "pnpm --filter @fintual/mobile start",
+    "dev:design-system": "pnpm --filter @fintual/design-system dev",
+    "build:all": "pnpm -r build",
+    "build:web": "pnpm --filter @fintual/web build",
+    "build:mobile": "pnpm --filter @fintual/mobile build",
+    "build:design-system": "pnpm --filter @fintual/design-system build",
+    "clean": "pnpm -r exec rm -rf node_modules dist build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint"
+  },
+  "keywords": [
+    "monorepo",
+    "pnpm",
+    "design-system",
+    "fintual"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@fintual/mobile",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Fintual React Native mobile application",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'Setup React Native project first'",
+    "android": "echo 'Setup React Native project first'",
+    "ios": "echo 'Setup React Native project first'",
+    "test": "echo 'No tests configured yet'",
+    "lint": "echo 'No linting configured yet'"
+  }
+}
