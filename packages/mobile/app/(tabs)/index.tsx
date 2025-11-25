@@ -20,7 +20,10 @@ export default function HomeScreen() {
       }
     >
       <ThemedView style={styles.titleContainer}>
-        <Text>Hola soy texto de algo especial de Fintual!</Text>
+        <Heading size="text-xl" color="secondary">
+          Welcome to Fintual!
+        </Heading>
+        <Text color="tertiary">Hola soy texto de algo especial de Fintual!</Text>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step asdsd1: Try it</ThemedText>
