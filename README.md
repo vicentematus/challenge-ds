@@ -33,7 +33,19 @@ function MyComponent() {
 }
 ```
 
+## Estructura
+
+```
+packages/
+├── fintual-ds // storybook + expo. Compila para React Native (mobile) y React Native Web (desktop)
+├── mobile // 👈 contiene un proyecto de expo starter
+└── web // react + vite + react-native-web
+
+```
+
 ## Desarrollo.
+
+Parti buscando por referencias visuales del design system de Fintual, [y encontre esto](https://www.figma.com/design/WJqsTyEbPsCa0uHVF6TBQh/Fin-DS-System?node-id=0-1&t=ZOpMe1MjwLZSxzov-1).
 
 El problema fue encontrar donde debería partir para armar algo cross-platform. Para web (React) y mobile (React Native) son environments distintos. Por lo que hay buscar algo en común.
 
@@ -89,8 +101,6 @@ components
 
 Asumiendo lo anterior el core es la aplicación mobile. Es por eso que elegí `react-native-web`. una librería de componentes la idea es que solo exista 1 código, para ambas plataformas.
 
-## Referencia
-
 ## Limitaciones
 
 Después de una investigación sobre librerias que son cross-platform, cómo [tamagui](https://tamagui.dev/) o [gluestack](https://gluestack.io/), encontre ciertas limitaciones.
@@ -100,6 +110,8 @@ En primer lugar, todas las librerias de componentes que son cross-platform siemp
 Esto es anécdotico pero buscando en stackoverflow o reddit, `react-native-web` para features más complejas tiene sus limitaciones. Algunas librerias de React no funcionan como se espera, etc.
 
 Pude haber hecho un Github Action para publicar la libreria cuando se pushee / PR a main, pero no me dio por tiempo. Actualmente corro pnpm run ds:publish para publicarla.
+
+El codigo puede mejorar bastante.
 
 ## Conclusión
 
