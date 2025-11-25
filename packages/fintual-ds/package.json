@@ -1,6 +1,6 @@
 {
   "name": "fintual-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -51,7 +51,7 @@
     "build": "pnpm clean && pnpm build:types && pnpm build:js && pnpm build:esm",
     "prepublishOnly": "pnpm build",
     "test:pack": "pnpm build && npm pack",
-    "bump": "git add . && git commit -m 'chore: bump version' && npm version patch && pnpm publish",
+    "bump": "pnpm version patch",
     "publish": "npm publish --access public"
   },
   "dependencies": {
