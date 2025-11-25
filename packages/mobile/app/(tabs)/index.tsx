@@ -20,13 +20,11 @@ export default function HomeScreen() {
       }
     >
       <ThemedView style={styles.titleContainer}>
-        <Heading size="text-xl" color="secondary">
-          Welcome to Fintual!
+        <Heading color="primary" size="text-xxxl">
+          Hola Vicente, soy el componente compartido
         </Heading>
-        <Text color="tertiary">Hola soy texto de algo especial de Fintual!</Text>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step asdsd1: Try it</ThemedText>
         <ThemedText>
           Edit{" "}
           <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText>{" "}
