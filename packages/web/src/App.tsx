@@ -23,9 +23,6 @@ function App() {
             </FintualText>
           </View>
           <View style={styles.navLinks}>
-            <TouchableOpacity style={styles.navLink}>
-              <Text style={styles.navLinkText}>🔔</Text>
-            </TouchableOpacity>
             <TouchableOpacity style={[styles.navLink, styles.navLinkActive]}>
               <Text style={[styles.navLinkText, styles.navLinkTextActive]}>
                 🏠 Invierte
@@ -45,7 +42,9 @@ function App() {
       </View>
 
       <View style={styles.headerGreeting}>
-        <Text style={styles.greetingTitle}>Hola Vicente 👋</Text>
+        <FintualText size="text-xxl" weight="bold" color="primary">
+          Hola Vicente, soy el componente compartido👋
+        </FintualText>
         <Text style={styles.greetingSubtitle}>Llevas 1001 días en Fintual</Text>
       </View>
 
