@@ -22,6 +22,7 @@
     "ds:storybook:android": "pnpm --filter fintual-ui storybook:android",
     "ds:storybook:generate": "pnpm --filter fintual-ui storybook-generate",
     "ds:build-storybook": "pnpm --filter fintual-ui build-storybook",
+    "ds:bump": "pnpm --filter fintual-ui bump",
     "ds:publish": "pnpm --filter fintual-ui publish",
     "mobile:start": "pnpm --filter mobile start",
     "mobile:ios": "pnpm --filter mobile ios",
