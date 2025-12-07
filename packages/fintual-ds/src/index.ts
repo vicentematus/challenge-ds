@@ -11,9 +11,6 @@ export { Text } from "./components/Text";
 export type { HeadingProps } from "./components/Heading";
 export type { TextProps } from "./components/Text";
 
-// Theme
-export { ThemeProvider, useTheme } from "./theme";
-
 // Design Tokens
 export { colors, spacing, typography, lightTheme, darkTheme } from "./tokens";
 export type { ColorTokens, SpacingTokens, TypographyTokens, TextColor } from "./tokens";
