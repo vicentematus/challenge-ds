@@ -18,15 +18,13 @@ pnpm add fintual-ui
 En un proyecto con React + Vite instalar de antemano:
 
 ```sh
-pnpm create vite web-project --template react-ts
-
+pnpm create vite --template react-ts
 ```
 
 Para utilizar React Native Web instalar:
 
-```
-pnpm add react-native-web vite-plugin-rnw react-native
-
+```sh
+pnpm add react-native-web @types/react-native-web vite-plugin-rnw react-native
 ```
 
 Ir a tu vite.config.ts y usar el plugin de react-native-web:
