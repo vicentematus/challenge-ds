@@ -1,6 +1,6 @@
 {
   "name": "fintual-ui",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "expo-router/entry",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -49,7 +49,7 @@
     "build:js": "tsc --project tsconfig.build.json --outDir dist --module commonjs",
     "build:esm": "tsc --project tsconfig.build.json --outDir dist/temp-esm --module esnext && node scripts/rename-esm.js",
     "build": "pnpm clean && pnpm build:types && pnpm build:js && pnpm build:esm",
-    "publish:local": "pnpm build && pnpm version patch && git add . && git commit -m 'chore(ds): bump version' && pnpm publish --access public"
+    "publish:local": "pnpm build && pnpm version patch && git add -A && git commit -m 'chore(ds): bump version' && pnpm publish --access public"
   },
   "dependencies": {},
   "devDependencies": {

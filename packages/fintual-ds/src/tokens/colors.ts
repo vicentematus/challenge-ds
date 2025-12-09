@@ -1,6 +1,6 @@
 // Based on Fintual's brand colors:
 // https://design.fintual.com/proyectos/rebranding/
-// Test publish workflow
+// Test publish v2
 export const lightTheme = {
   text: {
     primary: "#005AE6",
